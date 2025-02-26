@@ -65,16 +65,17 @@ Expected response:
   "generated_text": "Hello AI, welcome to the world of RedDragonAI!"
 }
 
-🎨 Technologies Used
+### 🎨 Technologies Used
+
 ✅ Frontend: React + Material UI
 ✅ Backend: FastAPI + Transformers
 ✅ Containerization: Docker & Docker Compose
 
-❓ Troubleshooting
+### ❓ Troubleshooting
 🔹 Backend Fails to Start?
 docker-compose logs backend
 Check if main.py exists in reddragonai-backend/.
 
-🔹 Frontend Can't Connect to Backend?
+### 🔹 Frontend Can't Connect to Backend?
 Ensure API URL in reddragonai-frontend/src/App.tsx:
 const API_URL = "http://backend:8000/generate/";
