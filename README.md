@@ -5,7 +5,19 @@ Welcome to **RedDragonAI**, a full-stack application built with **React (Fronten
 ---
 
 ## 📂 **Project Structure**
-📁 reddragonai-backend/ # FastAPI Backend ├── main.py # FastAPI API logic ├── requirements.txt # Backend dependencies ├── Dockerfile # Docker config for backend 📁 reddragonai-frontend/ # React Frontend ├── src/ # React source code ├── package.json # Frontend dependencies ├── Dockerfile # Docker config for frontend 📄 docker-compose.yml # Runs both frontend & backend in Docker 📄 README.md # Project documentation
+📁 reddragonai-backend/ 
+# FastAPI Backend 
+├── main.py # FastAPI API logic 
+├── requirements.txt # Backend dependencies 
+├── Dockerfile # Docker config for backend 
+
+📁 reddragonai-frontend/ # React Frontend 
+├── src/ # React source code 
+├── package.json # Frontend dependencies 
+├── Dockerfile # Docker config for frontend
+
+📄 docker-compose.yml # Runs both frontend & backend in Docker 
+📄 README.md # Project documentation
 
 
 ## 🛠 **Prerequisites**
@@ -21,7 +33,7 @@ Before running the project, ensure you have the following installed:
 git clone <your-repository-url>
 cd <your-project-folder>
 
-2️⃣ Run the Application with Docker
+### 2️⃣ Run the Application with Docker
 
 docker-compose up --build
 
@@ -30,17 +42,17 @@ Build & start the backend (FastAPI)
 Build & start the frontend (React)
 Run everything inside Docker containers
 
-3️⃣ Verify Everything is Running
+### 3️⃣ Verify Everything is Running
 Frontend: Open 🌐 http://localhost:3000
 Backend API Docs: Open 🌐 http://localhost:8000/docs
 
-4️⃣ Stop the Application
+### 4️⃣ Stop the Application
 To stop all containers:
 docker-compose down
 To run in the background (detached mode):
 docker-compose up -d
 
-5️⃣ Rebuilding After Code Changes
+### 5️⃣ Rebuilding After Code Changes
 If you make changes to the backend or frontend:
 docker-compose down
 docker-compose up --build
