@@ -30,8 +30,8 @@ Before running the project, ensure you have the following installed:
 
 ## 🚀 **How to Run the Project**  
 ### 1️⃣ **Clone the Repository**  
-git clone your-repository-url   
-cd your-project-folder  
+git clone [your-repository-url]   
+cd [your-project-folder]  
 
 ### 2️⃣ Run the Application with Docker  
   
