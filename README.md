@@ -18,6 +18,7 @@ Welcome to **RedDragonAI**, a full-stack application built with **React (Fronten
 📄 docker-compose.yml # Runs both frontend & backend in Docker   
 📄 README.md # Project documentation  
 
+---  
 
 ## 🛠 **Prerequisites**  
 Before running the project, ensure you have the following installed:  
@@ -65,12 +66,16 @@ Expected response:
   "generated_text": "Hello AI, welcome to the world of RedDragonAI!"
 }
 
+---  
+
 ### 🎨 Technologies Used  
   
 ✅ Frontend: React + Material UI  
 ✅ Backend: FastAPI + Transformers  
 ✅ Containerization: Docker & Docker Compose  
-
+  
+---  
+  
 ### ❓ Troubleshooting  
 🔹 Backend Fails to Start?  
 docker-compose logs backend  
