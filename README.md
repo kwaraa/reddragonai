@@ -5,8 +5,7 @@ Welcome to **RedDragonAI**, a full-stack application built with **React (Fronten
 ---
 
 ## 📂 **Project Structure**
-📁 reddragonai-backend/ 
-# FastAPI Backend 
+📁 reddragonai-backend/ # FastAPI Backend 
 ├── main.py # FastAPI API logic 
 ├── requirements.txt # Backend dependencies 
 ├── Dockerfile # Docker config for backend 
